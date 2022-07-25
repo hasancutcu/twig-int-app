@@ -8,7 +8,7 @@ this is hard coded to the file because it's an interview question. The problem i
 [1, 2, 3, 4, 5] and this is wanted to be divided into 3 equal parts.
 
 # Expected output
-[1, 2, 3], [4, 5]
+[ [ 1, 2 ], [ 3, 4 ], [ 5 ] ]
 
 # Solution
 I created a function in shared folder to be called from the main file. 
