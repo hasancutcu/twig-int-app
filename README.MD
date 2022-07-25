@@ -21,7 +21,7 @@ in the reducer fuction if  mod of the current index (mod with mini array legnth)
 if  mod of the current index is not 0 then means I needed to find the last list in the main list and push the value into that. This achieved by using 
 ``` 
 //finding the last list in the main list
-theprevVal[prevVal.length - 1].push(currArr);
+prevVal[prevVal.length - 1].push(currArr);
 ```
 
 and then I exported the main groupArrayElements so I can use it in the main file and return the result.
